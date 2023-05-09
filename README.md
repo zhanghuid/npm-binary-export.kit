@@ -8,7 +8,12 @@ make build-linux
 ## 使用
 ```
 chmod +x ./bin/npm-binary-export.kit-0.0.1-linux-amd64
-./bin/npm-binary-export.kit-0.0.1-linux-amd64 >> source.sh
+./bin/npm-binary-export.kit-0.0.1-linux-amd64 >> env.sh
+```
+
+## 生效
+```
+source env.sh
 ```
 
 ## 引用
